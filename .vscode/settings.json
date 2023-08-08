@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    ".eslintignore": true,
+    ".eslintrc.cjs": true,
+    ".git": true,
+    ".gitignore": true,
+    ".npmrc": true,
+    ".prettierignore": true,
+    ".prettierrc": true,
+    ".svelte-kit": true,
+    ".vscode": true,
+    "node_modules": true,
+    "yarn.lock": true
+  }
+}
