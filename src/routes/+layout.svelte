@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import '@/styles/global.css';
-	import { onMount } from 'svelte';
 
 	let top: HTMLElement;
 	afterNavigate((nav) => {
@@ -10,16 +9,6 @@
 			console.log('scrolling to top');
 		}
 	});
-
-	// import {checkSession, user as ustore, type IUser} from './session';
-	// onMount(() => {
-	// 	if(typeof window == 'undefined') return;
-	// 	checkSession();
-	// })
-	// let user: IUser | null = null;
-	// ustore.subscribe((v) => {
-	// 	user = v;
-	// });
 </script>
 
 <div class="App">
@@ -51,7 +40,6 @@
 		background: white;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		z-index: 4;
-		/* max-width: 840px; */
 		width: 100%;
 		height: 64px;
 		min-height: 64px;
@@ -66,14 +54,11 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		/* max-width: 840px; */
 		overflow: hidden;
 		margin: 0px auto;
 	}
 
 	main {
-		/* max-width: 840px; */
-		/* height: 100dvh; */
 		width: 100%;
 		flex-grow: 1;
 		background: #fff;
@@ -90,7 +75,6 @@
 		background: white;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		z-index: 4;
-		/* max-width: 840px; */
 		width: 100%;
 		height: 64px;
 		min-height: 64px;
@@ -112,7 +96,6 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: start;
-		/* width: 100%; */
 		flex-grow: 1;
 		margin: 0px;
 		padding: 0px;
