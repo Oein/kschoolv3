@@ -109,10 +109,6 @@
 					<td>djdj_privacy@poi.kr</td>
 				</tr>
 				<tr>
-					<td>권민준</td>
-					<td>mlnjoon0404z@gmail.com</td>
-				</tr>
-				<tr>
 					<td>박서준</td>
 					<td>pv@seojunpark.com</td>
 				</tr>
@@ -172,7 +168,7 @@
 				한 자가 본인이거나 정당한 대리인인지를 확인합니다.
 			</li>
 			<li>
-				삭제를 원할경우 <a href="#adminofinfo">개인정보 보호 책임자</a>에게 연락하여 삭제를 요청할
+				삭제를 원할 경우 <a href="#adminofinfo">개인정보 보호 책임자</a>에게 연락하여 삭제를 요청할
 				수 있습니다.
 			</li>
 		</ul>
