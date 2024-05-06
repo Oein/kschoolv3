@@ -112,6 +112,10 @@
 					<td>권민준</td>
 					<td>mlnjoon0404z@gmail.com</td>
 				</tr>
+				<tr>
+					<td>박서준</td>
+					<td>pv@seojunpark.com</td>
+				</tr>
 			</tbody>
 		</table>
 
