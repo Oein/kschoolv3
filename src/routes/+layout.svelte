@@ -27,16 +27,6 @@
 		<h1 class="appname">
 			<a href="/"> K학교전 </a>
 		</h1>
-		<!-- {#if user == null}
-		<a
-			class="signin"
-			href="https://api.instagram.com/oauth/authorize?client_id=355758490756147&redirect_uri=https://dj.daejeon.kr/auth/callback/&response_type=code&scope=user_profile"
-		>
-			로그인
-		</a>
-		{:else}
-			<div>@{user.username}</div>
-		{/if} -->
 	</header>
 	<main>
 		<div bind:this={top} />
@@ -49,7 +39,7 @@
 </div>
 
 <svelte:head>
-	<title>대전, 대신 전해드립니다.</title>
+	<title>K학교전</title>
 </svelte:head>
 
 <style>
@@ -116,11 +106,6 @@
 		align-items: center;
 	}
 
-	.appname > a > img {
-		/* width: 64px; */
-		height: 1.2em;
-		margin-right: 8px;
-	}
 
 	.appname {
 		display: flex;
@@ -133,8 +118,4 @@
 		padding: 0px;
 	}
 
-	/* .signin {
-		width: fit-content;
-		min-width: fit-content;
-	} */
 </style>

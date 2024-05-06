@@ -21,7 +21,6 @@
 </div>
 <div class="inf">
 	<h1>K학교전이 무엇인가요?</h1>
-<!--	<p><a href="https://namu.wiki/w/K%ED%95%99%EA%B5%90%EC%A0%84!">나무위키</a> 참조</p> -->
 	<p>팝캣 형식의, 학교 간 클릭 수를 두고 경쟁하는 게임입니다!</p>
 	<h1>서비스 오픈은 언제인가요?</h1>
 	<p>아직 정확한 오픈 날짜는 정해지지 않았어요. 추후에 공지될 예정이니 궁금하시다면 주기적으로 확인해 주세요!</p>
@@ -29,11 +28,6 @@
 </div>
 
 <style>
-	.block {
-		padding: 4px 8px;
-		border-radius: 4px;
-		background: #f5f5f5;
-	}
 	.inf {
 		min-height: calc(100dvh - 128px);
 		background: #fff;
